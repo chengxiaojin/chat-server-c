@@ -1,2 +1,2 @@
-# chat-server-c-
+# chat-server-c
 这是一个基于c++的集群并跨服务器通信的聊天服务器 
