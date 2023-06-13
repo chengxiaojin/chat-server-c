@@ -96,7 +96,7 @@ CommonConnectionPool* CommonConnectionPool::getInstance() {
 
 bool CommonConnectionPool::loadConfigFile() {
 	cout<<__FILE__<<endl;
-	FILE* fptr = fopen("/home/clj/chat_server/poolconf.ini", "r"); //打开配置文件
+	FILE* fptr = fopen("./../poolconf.ini", "r"); //打开配置文件
 	if (!fptr) {
 		LOG_ERROR <<"打开文件失败";
 		return false;
